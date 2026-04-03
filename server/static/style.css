@@ -1,6 +1,7 @@
 body{
     margin: 0 0 0 0;
     padding-top: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -13,7 +14,7 @@ header{
 }
 
 h1{
-    padding-left: 4vw;
+    padding-left: 2vw;
     color: white;
 }
 
@@ -27,6 +28,51 @@ main{
     width: 30vw;
     background-color: #f0f0f0;
 }
+
+form{
+    padding-top: 5vh;
+    padding-left: 3vh;
+}
+
+#job-input-label{
+    font-size: larger;
+}
+
+#job-input{
+    margin: 1vh 0 2vh 0;
+    height: 5vh;
+    font-size: 1.5em;
+    background-color: #333434;
+    color: white;
+    border-radius: 1vh;
+}
+
+#location-input-label{
+    font-size: larger;
+}
+
+#location-input{
+    margin: 1vh 0 2vh 0;
+    height: 5vh;
+    font-size: 1.5em;
+    background-color: #333434;
+    color: white;
+    border-radius: 1vh;
+}
+
+#submit{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    background-color: #570203;
+    color: white;
+    border-radius: 1vh;
+    margin-left: 3vh;
+}
+
+#overview-div{
+}
+
+
 
 #answer-div{
     width: 70vw;

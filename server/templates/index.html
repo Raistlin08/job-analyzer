@@ -15,10 +15,15 @@
         <main>
             <div id="selector-div">
                 <form>
-                    <label><b>Enter a job title:</b></label><br>
-                    <input type="text" id="job-input" placeholder="Enter job title">
-                    <input>
+                    <label id="job-input-label"><b>Enter a job title or key word:</b></label><br>
+                    <input type="text" id="job-input" placeholder="Enter job title"><br>
+                    <label id="location-input-label"><b>Enter the location:</b></label><br>
+                    <input type="text" id="location-input" placeholder="Enter location"><br>
                 </form>
+                <button id="submit"  onclick="analyze()">Analyze</button>
+                <div id="overview-div">
+                </div>
+            
             </div>
             <div id="answer-div">
             </div>
