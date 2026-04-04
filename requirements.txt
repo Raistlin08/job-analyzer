@@ -1,2 +1,5 @@
 flask
 langchain_ollama
+bs4
+playwright
+playwright install chromium
