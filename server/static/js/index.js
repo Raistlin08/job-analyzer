@@ -26,5 +26,19 @@ async function analyze() {
         overview_title.innerHTML = "<strong>OVERVIEW</strong>"
         let overview_p = document.getElementById("overview-p")
         overview_p.innerHTML = over
+
+        let skills_list = document.getElementById("skills-list")
+
+        let final_list = ""
+        for (let index = 0; index < skills.length; index++) {
+            const element = skills[index];
+            let item = "<li>"
+            item += "<h3>" +element["skill"]+"</h3>"
+            item += "  -  <span><strong>RELEVANCE: </strong>" + element["relevance"] + "      <strong>DIFFICULTY: </strong>" + element["difficulty"] + "</span>"
+            item += "<p id='desc-p'>" + element["desc"] + "</p>"
+            item += "</li>"
+            final_list += item
+        }
+        skills_list.innerHTML = final_list
     })
 }

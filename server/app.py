@@ -6,8 +6,8 @@ app = Flask(__name__)
 standard_response = {
     "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus orci vel ante vehicula, ut sollicitudin tellus condimentum. Sed tortor velit, molestie ac tortor vel, tincidunt rutrum nunc. Duis egestas, mi sed tempus convallis, augue leo vestibulum tortor, in sagittis nulla velit at est. Sed cursus nulla odio, et lacinia.",
     "skills": [
-        {"skill": "C++","relevance":1,"difficulty":3},
-        {"skill": "docker","relevance":2,"difficulty":4}
+        {"skill": "C++", "desc": "C++ linguaggio sndja saondsaodjsojadso sdoasdsna kjndsajndanasaass","relevance":1,"difficulty":3},
+        {"skill": "docker","desc": "Docker è un sistema dsdsmdsk f ndsj fndns djsjsfnsd ni dsdsv hsuidhvsiv rf dhvsuiidc cad","relevance":2,"difficulty":4}
     ]
 }
 
