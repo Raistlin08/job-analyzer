@@ -70,8 +70,13 @@ form{
 }
 
 #overview-div{
+    margin-left:    3vh;
+    margin-right: 1vh;
 }
 
+h2{
+    font-size: 2em; 
+}
 
 
 #answer-div{
